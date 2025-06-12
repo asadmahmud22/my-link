@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(assets/bg-image5.png);
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 5px;
+animation: moveButton  2s infinite alternate;
+}
+
+@keyframes moveButton {
+  0% {
+    transform: translateX(100);
+    -webkit-transform: translateX(100);
+    -moz-transform: translateX(100);
+    -ms-transform: translateX(100);
+    -o-transform: translateX(100);
+}
+  100% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+}
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+p{
+  font-size: 18px;
+  font-style:unset;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 50px;
+  vertical-align: middle;
+}
+
+.button {
+  background: linear-gradient(to right, rgba(24, 212, 68, 0.5), rgba(24,118,212,0.8));
+  padding: 2px;
+  margin: 10px 0;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #000000;
+  transition: background 0.3s;
+  color: #000000;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-animation: moveButton  2s infinite alternate;
+  animation: moveButton  2s infinite alternate;
+}
+
+@keyframes moveButton {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+
+.button:hover {
+  background-color: #c1ff72;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #c1ff72;
+  transform: scale(1.4);
+  opacity: 0.8;
+   -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 18px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.icons8-tiktok {
+  .icons8-tiktok {
+    filter: brightness(0) invert(1); /* Membuat gambar jadi putih */
+  }
+}
+.icon {
+  width: 35px;
+  height: 40px;
+  margin: 10px 0;
+  padding: 2px;
+  border-style: solid;
+  border-radius:10px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(24, 212, 36, 0.8));
+  border-color: #c1ff72;
+  fill: rgb(255, 255, 255);
+  color: #000000;
+  /*InipentinguntukcurrentColoragarputih*/transition: transform 0.3s ease;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
+
+.icon:hover {
+  transform: scale(1.4);
+  color: #ffffff;
+  opacity: 0.8;
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}

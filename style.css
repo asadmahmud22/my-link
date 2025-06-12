@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-  width: 180px;
+  width: 280px;
   margin-bottom: 5px;
 animation: moveButton  2s infinite alternate;
 }

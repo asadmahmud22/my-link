@@ -16,7 +16,7 @@ body {
 .logo {
   width: 280px;
   margin-bottom: 5px;
-animation: moveButton  2s infinite alternate;
+  animation: moveButton 2s infinite alternate;
 }
 
 @keyframes moveButton {
@@ -26,14 +26,14 @@ animation: moveButton  2s infinite alternate;
     -moz-transform: translateX(100);
     -ms-transform: translateX(100);
     -o-transform: translateX(100);
-}
+  }
   100% {
     transform: translateX(0px);
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
     -ms-transform: translateX(0px);
     -o-transform: translateX(0px);
-}
+  }
 }
 
 h1 {
@@ -42,9 +42,9 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
-p{
+p {
   font-size: 18px;
-  font-style:unset;
+  font-style: unset;
 }
 
 .social-icons {
@@ -58,7 +58,11 @@ p{
 }
 
 .button {
-  background: linear-gradient(to right, rgba(24, 212, 68, 0.5), rgba(24,118,212,0.8));
+  background: linear-gradient(
+    to right,
+    rgba(24, 212, 68, 0.5),
+    rgba(24, 118, 212, 0.8)
+  );
   padding: 2px;
   margin: 10px 0;
   border-radius: 30px;
@@ -72,8 +76,8 @@ p{
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  -webkit-animation: moveButton  2s infinite alternate;
-  animation: moveButton  2s infinite alternate;
+  -webkit-animation: moveButton 2s infinite alternate;
+  animation: moveButton 2s infinite alternate;
 }
 
 @keyframes moveButton {
@@ -85,7 +89,6 @@ p{
   }
 }
 
-
 .button:hover {
   background-color: #c1ff72;
   color: #ffffff;
@@ -93,7 +96,7 @@ p{
   border-color: #c1ff72;
   transform: scale(1.4);
   opacity: 0.8;
-   -webkit-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
   -moz-transform: scale(1.4);
   -ms-transform: scale(1.4);
   -o-transform: scale(1.4);
@@ -126,16 +129,21 @@ h2 {
   margin: 10px 0;
   padding: 2px;
   border-style: solid;
-  border-radius:10px;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(24, 212, 36, 0.8));
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.5),
+    rgba(24, 212, 36, 0.8)
+  );
   border-color: #c1ff72;
   fill: rgb(255, 255, 255);
   color: #000000;
-  /*InipentinguntukcurrentColoragarputih*/transition: transform 0.3s ease;
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  -ms-border-radius:10px;
-  -o-border-radius:10px;
+  /*InipentinguntukcurrentColoragarputih*/
+  transition: transform 0.3s ease;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .icon:hover {

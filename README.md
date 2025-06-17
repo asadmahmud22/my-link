@@ -1,2 +1,2 @@
-#my-link
-My-Link adalah website sederhana bergaya Linktree yang menampilkan tautan-tautan penting dalam satu halaman. Dibuat dengan HTML, CSS, dan JavaScript, desainnya responsif dan minimalis, cocok untuk personal branding, portofolio, atau membagikan media sosial secara praktis dan cepat.
+# Snake-Game-Enhanced
+Snake Game Enhanced adalah permainan klasik ular yang dikembangkan dengan JavaScript, di mana pemain mengendalikan ular untuk memakan makanan dan tumbuh lebih panjang. Game ini memiliki kontrol sederhana menggunakan keyboard, sistem skor, dan tampilan interaktif berbasis canvas HTML5.
